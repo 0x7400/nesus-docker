@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+MAINTAINER 0x7400 <0x7400@protonmail.com>
+
 RUN apt-get update && apt-get install -y wget
 
 RUN cd /tmp && wget https://www.tenable.com/downloads/api/v1/public/pages/nessus/downloads/10852/download?i_agree_to_tenable_license_agreement=true
